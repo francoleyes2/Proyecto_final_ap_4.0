@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV | Juan Gomez</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="description" content="Juan Gomez, CV, Profesional, Online" >
     <link rel="icon" href="icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/boostrap-min.css">
+
+    <!-- Open Graph!-->
+    <meta property="og:title" content="CV | JUAN GOMEZ"/>
+    <meta property="og:url" content="http://example.com"/>
+    <meta property="og:description" content="Juan Gomez, CV, Profesional, Online"/>
+    <meta property="og:image" content="https://randomuser.me/api/portraits/men/64.jpg"/>
+    <meta property="og:type" content="article"/>
+
+
     <style>
         body { background-color: #E6F7FF; }
       </style>
@@ -19,29 +28,60 @@
 </head>
 
 <body>
-
-    <header>
-        <img class="icono" src="https://cdn.icon-icons.com/icons2/1572/PNG/512/3592855-business-man-employee-general-human-member-office-tie_107745.png" alt="icon">
+<!--Header-->
+    <div class="container">
+        <img class="icono" src="https://cdn.icon-icons.com/icons2/1572/PNG/512/3592855-business-man-employee-general-human-member-office-tie_107745.png" alt="No se pudo cargar el icono">
 
         <h1 class="title">CV Juan Gomez</h1>
+
         
-        <nav>
-             <a href="index.html" class="nav link">Inicio</a>
-             <a href="" class="nav link">Habilidades</a>
-             <a href="" class="nav link">Contacto</a>
-        </nav>
 
-    </header>
+    </div>
+
+    <div class="container-md">
+        
+            <nav>
+                <a href="index.html" class="nav link">Inicio</a>
+                <a href="" class="nav link">Habilidades</a>
+                <a href="" class="nav link">Experiencia</a>
+                <a href="" class="nav link">Contacto</a>
+                </nav>
+        
+        
+    </div>
+
+    <aside>
+        <img id="pfp" src="https://randomuser.me/api/portraits/men/64.jpg" alt="La imagen no pudo cargarse correctamente" > 
+    </aside>
+    
 
 
 
-<div>
+    <section>
+        
+        <H1 id="Encabezado">INGENIERO ELECTRONICO</H1>
+        <p id="Descripcion" >Ingeniero eléctrico con experiencia coordinando diversos proyectos, mejorando
+            procesos departamentales y aumentando los ingresos de la compañía, en busca
+            de una oportunidad laboral donde seguir creciendo a nivel profesional.</p>
+    </section>
 
 
 
-</div>
+    <article>
+        <H1 id="Aptitudes">APTITUDES</H1>
+        <ul id="Lista" >
+            <li>Mantenimiento <span style="color: darkred;">industrial </span></li>
+            <li>Capacidad para priorizar tareas</li>
+            <li>Habilidades matemáticas</li>
+            <li>Automatización</li>
+            <li>Generadores de señal</li>
+        </ul>    
+        </article>
 
 
 
+
+        <p>textooooooooooo</p>
 </body>
+
 </html>
