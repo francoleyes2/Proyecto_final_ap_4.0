@@ -1,42 +1,36 @@
-.container {
-    position: static;
-    display:flex;
-    
-    border: 1px solid #126142;
-    padding: 5px;
-    justify-content: space-between;
-    margin-top: -10px;
-    background: #83b8b5;
 
+.containercss {
+    background: #4D5561;
+
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.3); 
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.3);
 }
 
-.title {
-    display: inline-flex;
-    width:800px;
-    height:100px;
-    font-family:Arial, Georgia, 'Times New Roman', Times, serif;
-    font-size:50px;
-    color: #EDF3FF;
-    justify-content: center;
-    padding-left: 0px;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    padding-right: 300px;
-    margin: auto;
-    border: 40px;
-    float: left;
+
+
+.headercss{
+    background-color: rgb(151, 184, 221);
+}
+
+.titulocss{
+    color: white;
+    font-size: 30px;
+    font-family: oswald, arial,Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
-
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 
 .icono{
-    position: absolute;
+    position:relative;
     display:block;
-    width: 100px;
+    justify-content: left;
+    width: 320px;
     height: 100px;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 
 }
 
@@ -89,15 +83,22 @@ transition: 0.2s;
     }
 
 
-    #pfp{
-        float: right;
+    
+
+
+
+.aside {
+    float: right;
         width: 300px;
         border: 3px solid #080808;
         padding: 10px;
         margin: 20px;
-        
-    
-    }
+        right: 20%;
+
+}
+
+
+
 
 
 
@@ -147,29 +148,3 @@ article{
 
 
 
-@media (max-width:900px){
-    .container{
-        width: 900px;
-        height: 200px;
-        position: absolute;
-       display: flex;
-    }
-    .title{
-       font-size: 45px;
-       padding-left: 2px;
-       padding-top: 2px;
-       padding-bottom: 2px;
-       padding-right: 2px;
-       margin: 1px;
-    }
-
-    .icono{
-        width: 30px;
-        height: 30px;
-
-    }
-    nav{
-        display: inline-flex;
-        float:inline-end;
-    }
-}
