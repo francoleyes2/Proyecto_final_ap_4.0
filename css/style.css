@@ -71,3 +71,30 @@ box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24);
     background: #4d556148;
  
 }
+
+.audio{
+    margin: 4px;
+    width: 400px;
+}
+
+.section{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 325px;
+    background-color: rgba(140, 167, 167, 0.712);
+    padding: 20px;
+    border-style: inset;
+    /*Google Fonts*/
+    font-family: Oswald;
+    font-style: italic;
+    color: azure;
+    text-shadow: 4px 0px 0px rgba(0,0,0,0.4);
+}
+/* Media Queries*/
+@media (max-width: 699px){
+.section{
+    background-color: black;
+
+}
+}
