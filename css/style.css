@@ -12,6 +12,18 @@
     background-color: rgb(151, 184, 221);
 }
 
+.headercss-hab{
+    background-color: rgb(151, 221, 180);
+}
+
+.headercss-cont{
+    background-color: rgb(214, 221, 151);
+}
+
+.headercss-info{
+    background-color: rgb(221, 151, 151);
+}
+
 .titulocss{
     color: white;
     font-size: 30px;
@@ -35,9 +47,27 @@
 }
 
 
-
+.icon-pcb{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 250px; 
+    background-color: aliceblue;
+    -webkit-box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24); 
+box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24);
 }
 
+.icon-pcb2{
+    padding: 10px;
+    margin: 10px;  
+    float: right;
+    width: 250px;
+    background-color: aliceblue;
+    -webkit-box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24); 
+box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24);
+}
 
-
-
+#li-a{
+    background: #4d556148;
+ 
+}
