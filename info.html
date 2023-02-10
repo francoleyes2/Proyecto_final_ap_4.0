@@ -20,16 +20,26 @@
     <meta property="og:image" content="https://randomuser.me/api/portraits/men/64.jpg"/>
     <meta property="og:type" content="form"/>
 
-
+ 
     <style>
-        body { background-color: #b2c2c9; }
-      </style>
+      body { background-color: #b2c2c9; }
+    </style>
+
+
+
+
 
 
 </head>
 
+
+
+
+
 <body>
 <!--Esta sección es full responsive -->
+
+
 
 <!--Header----->
 <header class="headercss-info" class="d-flex flex-wrap  py-3 mb-4 border-bottom bg-dark justify-content-center">
@@ -62,13 +72,83 @@
          </div>
     </nav>
 
-    <div class="containercss m-2 p-2">
+<div class="containercss m-2 p-2">
         <p class="display-4 text-center text-light p-2">Información</p> 
-    </div>
-    
+      </div>  
+
+
     <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
       Esta pagina está enfocada en JavaScript, haz click <a href="index.html" class="alert-link"> Aquí </a>. Para volver a la pagina de inicio.
     </div>
+
+
+
+
+
+
+
+
+
+<form id="mi_formulario" class="text-center bg-light my-3 p-2">
+    <label> Numero 1 </label>
+    <input type="number" id="valor1" autofocus placeholder="Ingrese numero 1" required/>
+    
+    <br>
+    <br>
+    <label> Numero 2 </label>
+    <input type="number" id="valor2" placeholder="Ingrese numero 2" required/>
+    <p>Mi Resultado es: <span id="resultado_x"> </span></p>
+
+    <button onclick="limpiar();"> Reset</button>
+    <button type="button" onclick="sumar();">Ver Resultado</button>
+  </form>
+</div>
+
+
+
+
+
+<div class="text-center bg-light">
+<p>Haz click en el boton para mostrar un Hello world.</p>
+<button onclick="mostrar_mensaje_h()">Presionar</button>
+<p id="hello" style="font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;"></p>
+</div>
+
+
+
+
+
+
+<div class="text-center bg-light">
+  <p>Haz click en el boton para cambiar el contenido del texto.</p>
+  <button onclick="mostrar_mensaje_t()">Presionar</button>
+  <p id="text-c" style="font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;"> Texto</p>
+  </div>
+  
+
+
+  <div class="text-center bg-light">
+    <p>Haz click en el boton para ocultar el contenido del texto.</p>
+    <button type="button" id="boton_ocultar"> Ocultar el texto </button>
+    <p id="text-v" style="font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;"> Texto</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  <!--Footer -->
@@ -76,7 +156,21 @@
   <p class="text-center bg-light" style="font-size: 10px;">2023 - Franco Leyes | Programar Argentina</p>
 </footer>
 
+
+
+
+
+
+
+<!--JS-->
+<script src="js/function.js"> type="text/javascript"</script>
+
+
+
 </body>
+
+
+
 
 
 

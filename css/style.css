@@ -1,11 +1,11 @@
 
+
 .containercss {
     background: #4D5561;
 
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.3); 
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.3);
 }
-
 
 
 .headercss{
@@ -33,7 +33,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 
 .icono{
@@ -91,6 +90,9 @@ box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24);
     color: azure;
     text-shadow: 4px 0px 0px rgba(0,0,0,0.4);
 }
+
+
+
 /* Media Queries*/
 @media (max-width: 699px){
 .section{
@@ -98,3 +100,4 @@ box-shadow: 6px -5px 6px 0px rgba(0,0,0,0.24);
 
 }
 }
+
