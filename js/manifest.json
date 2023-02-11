@@ -1,0 +1,21 @@
+{
+    "name": "CV | JUAN GOMEZ",
+    "short_name": "Juan Gomez",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#b2c2c9",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "description": "Cv de Juan Gomez, Ingeniero Electronico",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "type": "image/png", "size": "150x150"
+      },
+      {
+        "src": "/logo.png",
+        "type": "image/png", "size": "320x100"
+      }
+
+    ]
+  }
